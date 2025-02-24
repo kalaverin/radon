@@ -1,0 +1,46 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools>=68.0.0",
+  "wheel"
+]
+
+[dependency-groups]
+dev = [
+  "tomli>=2.2.1",
+  "tomli-w>=1.2.0"
+]
+
+[project]
+authors = [
+  {name = "Alex Kalaverin", email = "alex@kalaver.in"}
+]
+classifiers = [
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: BSD License",
+  "Topic :: Software Development :: Quality Assurance"
+]
+dependencies = [
+  "natsort>=8.4.0",
+  "radon>=6.0.0",
+  "setuptools>=68.0.0"
+]
+description = "Pre-commit hook for Python Radon tool with customizable thresholds"
+name = "radon-hook"
+readme = "README.md"
+requires-python = ">=3.10"
+version = "0.1.0"
+
+[project.license]
+text = "BSD"
+
+[project.scripts]
+radon-hook = "radon_hook:main"
+
+[tool.uv]
+index-url = "https://pypi.org/simple"
+
+[tool.uv.sources.radon-precommit-hook]
+path = "."

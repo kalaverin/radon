@@ -1,0 +1,8 @@
+---
+- id: radon
+  name: Radon
+  description: Checks code complexity against defined thresholds
+  entry: radon-hook
+  language: python
+  types: [python]
+  additional_dependencies: [radon]
