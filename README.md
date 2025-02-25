@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./static/example/png">
-</p>
-
 # How to use [radon](https://pypi.org/project/radon/) with pre-commit?
 
 Just add the following to your `.pre-commit-config.yaml`:
@@ -32,3 +28,9 @@ Read more about [Radon](https://pypi.org/project/radon/) and used Halstead [metr
 --error-volume ERROR_VOLUME
 --error-complexity ERROR_COMPLEXITY
 ```
+
+## Example of real output:
+
+<p align="center">
+  <img src="static/example.png">
+</p>
