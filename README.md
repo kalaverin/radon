@@ -1,4 +1,6 @@
-# Advanced Python Utilities Module
+# How to use [radon](https://pypi.org/project/radon/) with pre-commit?
+
+Just add the following to your `.pre-commit-config.yaml`:
 
 ```yaml
 repos:
