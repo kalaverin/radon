@@ -98,6 +98,6 @@ max-complexity = 20
 [lint.pep8-naming]
 classmethod-decorators = [
   "Property.Class",
-  "Property.Class.Parent",
-  "Property.Class.Cached"
+  "Property.Class.Cached",
+  "Property.Class.Parent"
 ]
