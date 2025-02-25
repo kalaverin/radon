@@ -1,6 +1,6 @@
 ---
 - id: radon
-  name: Radon
+  name: radon
   description: Checks code complexity against defined thresholds
   entry: radon-hook
   language: python
