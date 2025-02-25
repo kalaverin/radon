@@ -194,7 +194,7 @@ After validating the readiness for an update, it prompts to proceed. Once confir
         exit 1
     fi
 
-    version="$(bump "minor" "$current")"
+    version="$(bump "$mode" "$current")"
     [ -z "$version" ] && exit 1
 
     revision="$(git rev-parse "$version" 2>/dev/null)" || retval="$?"
