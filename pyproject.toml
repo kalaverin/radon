@@ -41,6 +41,3 @@ radon-hook = "radon_hook:main"
 
 [tool.uv]
 index-url = "https://pypi.org/simple"
-
-[tool.uv.sources.radon-precommit-hook]
-path = "."
