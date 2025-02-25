@@ -9,7 +9,7 @@ fail_fast: true
 exclude: (poetry|uv)\.lock
 repos:
   - repo: https://github.com/kalaverin/radon
-    rev: master
+    rev: 0.2.0
     hooks:
       - id: radon
         args: [--warn-time=120, --error-effort=2000]
@@ -100,7 +100,7 @@ repos:
     hooks:
       - id: refurb
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.6.2
+    rev: 0.6.3
     hooks:
       - id: uv-lock
         args: [--locked]
