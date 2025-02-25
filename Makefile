@@ -4,7 +4,7 @@
 # source     https://github.com/joerdav/xc
 
 CONFIG := $(or $(EXECUTE_FILE), TASKS.md)
-CMD := xc -file "$(CONFIG)"
+CMD := xc -file $(CONFIG)
 export XC := $(CMD)
 
 
